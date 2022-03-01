@@ -10,8 +10,6 @@ chmod +x steg_tools.sh
 ```
 
 ## Tools
-
-**Steganography Tools**
  
 | Tool | File types | Description | Command | OS | Graphical Interface |
 |------|------------|-------------|---------|----|---------------------|
