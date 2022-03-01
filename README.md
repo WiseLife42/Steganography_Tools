@@ -48,15 +48,17 @@ This project was created to bring together most of the tools used in CTF to solv
 | [openstego](https://www.openstego.com/) | a lot | OpenStego is a tool to hide and extract data from an image | ```openstego -h``` | Linux/Windows | No |
 | [stegsnow](https://www.kali.org/tools/stegsnow/) | a lot | This utility can conceal and hide messages in ASCII text by appending whitespaces to the end of lines | ```stegsnow -h``` | Linux/Windows | No |
 | [stegseek](https://github.com/RickdeJager/stegseek) | a lot | Stegseek is a lightning fast steghide cracker that can be used to extract hidden data from files | ```stegseek --help``` | Linux/Windows | No |
-| [ElectronicColoringBook](https://github.com/doegox/ElectronicColoringBook) | File types | The tool allows you to colorize data file according to repetitive chunks, typical in ECB encrypted | ```electroniccoloringbook``` | Linux/Windows | No |
+| [ElectronicColoringBook](https://github.com/doegox/ElectronicColoringBook) | a lot | The tool allows you to colorize data file according to repetitive chunks, typical in ECB encrypted | ```electroniccoloringbook``` | Linux/Windows | No |
 | [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) | a lot | A python script for digital image steganography using Fast Fourier Transform | ```python3 FFTStegPic.py``` | Linux/Windows | Yes/No |
 | [qsstv](https://doc.ubuntu-fr.org/qsstv) | / | QSSTV is an amateur radio tool to receive and transmit Slow Scan Television (SSTV) and Faxes via radio waves | ```qsstv``` | Linux/Windows | Yes |
 | [sonic-visualiser](https://www.sonicvisualiser.org/) | AUDIO | Sonic Visualiser is a free application for Visualisation, analysis, and annotation of music audio recordings | ```sonic-visualiser``` | Linux/Windows/Mac | Yes |
 | [steg](https://www.fabionet.org/) | JPG/TIFF/PNG/BMP | Steg is a software program that uses steganography and cryptography techniques to hide and find information in compressed and uncompressed images | ```./Steg-1.1.0.0-x64.AppImage``` | Linux/Windows | Yes |
 | [steganabara](http://www.caesum.com/handbook/stego.htm) | a lot | Steganabara is a tool to allows colour analysis to an image | ```steganabara``` | Linux/Windows | Yes |
-| [stegsolve](http://wikisecu.fr/doku.php?id=stegano:stegsolve) | File types | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | ```stegsolve``` | Linux/Windows | Yes |
+| [stegsolve](http://wikisecu.fr/doku.php?id=stegano:stegsolve) | a lot | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | ```stegsolve``` | Linux/Windows | Yes |
 | [OpenPuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html) | a lot | OpenPuff is a tool to hide and unhide data from images | ```OpenPuff.exe``` | Windows | Yes |
 | [WavePad](https://www.nch.com.au/wavepad/fr/index.html) | AUDIO | WavePad is an audio editing software | ```WavePadMontageAudio_FR.exe``` | Windows | Yes |
+
+**Note :** Windows tools can be run on Linux with [Wine](https://www.winehq.org/)!
 
 **Web**
 
