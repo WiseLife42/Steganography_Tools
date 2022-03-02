@@ -9,7 +9,7 @@ This project was created to bring together most of the tools used in CTF to solv
 # ./steg_tools.sh
 ```
 
-## Tools
+**Steganography Tools**
  
 | Tool | File types | Description | Command | OS | Graphical Interface |
 |------|------------|-------------|---------|----|---------------------|
@@ -31,7 +31,6 @@ This project was created to bring together most of the tools used in CTF to solv
 | [pdffonts](https://doc.ubuntu-fr.org/poppler-utils) | PDF | Allows you to obtain information on the fonts | ```pdffonts -h``` | Linux | No |
 | [pdfid](https://blog.didierstevens.com/programs/pdf-tools/) | PDF | pdfid is a tool to scan a pdf to look for certain keywords, allowing you to identify PDF documents that contain (for example) JavaScript or execute an action when opened | ```python3 pdfid.py -h``` | Linux/Windows | No |
 | [pdftool](https://blog.didierstevens.com/programs/pdf-tools/) | PDF | pdftool is a tool where you can check if a PDF contains incremental updates, and select the versions you want | ```python3 pdftool.py -h``` | Linux/Windows | No |
-| [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) | PDF | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | ```pdftk -h``` | Linux/Windows | No/Yes |
 | [Stegano](https://github.com/cedricbonhomme/Stegano) | a lot | Stegano is a pure Python Steganography module to hide and reveal messages | ```from stegano import *``` | Linux/Windows | No |
 | [pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html) | PNG/JNG/MNG | pngcheck verifies the integrity of image files (by checking the internal 32-bit CRCs, a.k.a. checksums, and decompressing the image data) | ```pngcheck -h``` | Linux/Windows/Mac/FreeBSD | No |
 | [stegextract](https://github.com/evyatarmeged/stegextract) | a lot | Stegextract is a tool to extract hidden files and strings from images | ```stegextract -h``` | Linux/Windows | No |
@@ -44,21 +43,24 @@ This project was created to bring together most of the tools used in CTF to solv
 | [ffmpeg](https://ffmpeg.org/) | AUDIO/VIDEO | A complete, cross-platform solution to record, convert and stream audio and video | ```ffmpeg -h``` | Linux/Windows | No |
 | [stegpy](https://github.com/dhsdshdhk/stegpy) | IMAGE/AUDIO | stegpy is a tool used for encoding and decoding information in image and audio files through steganography | ```stegpy -h``` | Linux/Windows | No |
 | [lsb-steganography](https://github.com/RobinDavid/LSB-Steganography) | PNG/JPG | LSB-Steganography is a stegonographical methods to hide and reveal files in images using the Least Significant Bit technique | ```lsbsteg -h``` | Linux/Windows | No |
-| [spectrology](https://github.com/solusipse/spectrology) | IMAGE/AUDIO | Images to audio files with corresponding spectrograms encoder | ```spectrology -h``` | Linux/Windows | Yes |
 | [openstego](https://www.openstego.com/) | a lot | OpenStego is a tool to hide and extract data from an image | ```openstego -h``` | Linux/Windows | No |
 | [stegsnow](https://www.kali.org/tools/stegsnow/) | a lot | This utility can conceal and hide messages in ASCII text by appending whitespaces to the end of lines | ```stegsnow -h``` | Linux/Windows | No |
 | [stegseek](https://github.com/RickdeJager/stegseek) | a lot | Stegseek is a lightning fast steghide cracker that can be used to extract hidden data from files | ```stegseek --help``` | Linux/Windows | No |
-| [ElectronicColoringBook](https://github.com/doegox/ElectronicColoringBook) | a lot | The tool allows you to colorize data file according to repetitive chunks, typical in ECB encrypted | ```electroniccoloringbook``` | Linux/Windows | No |
-| [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) | a lot | A python script for digital image steganography using Fast Fourier Transform | ```python3 FFTStegPic.py``` | Linux/Windows | Yes/No |
-| [qsstv](https://doc.ubuntu-fr.org/qsstv) | / | QSSTV is an amateur radio tool to receive and transmit Slow Scan Television (SSTV) and Faxes via radio waves | ```qsstv``` | Linux/Windows | Yes |
-| [sonic-visualiser](https://www.sonicvisualiser.org/) | AUDIO | Sonic Visualiser is a free application for Visualisation, analysis, and annotation of music audio recordings | ```sonic-visualiser``` | Linux/Windows/Mac | Yes |
-| [steg](https://www.fabionet.org/) | JPG/TIFF/PNG/BMP | Steg is a software program that uses steganography and cryptography techniques to hide and find information in compressed and uncompressed images | ```./Steg-1.1.0.0-x64.AppImage``` | Linux/Windows | Yes |
-| [steganabara](http://www.caesum.com/handbook/stego.htm) | a lot | Steganabara is a tool to allows colour analysis to an image | ```steganabara``` | Linux/Windows | Yes |
-| [stegsolve](http://wikisecu.fr/doku.php?id=stegano:stegsolve) | a lot | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | ```stegsolve``` | Linux/Windows | Yes |
-| [OpenPuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html) | a lot | OpenPuff is a tool to hide and unhide data from images | ```OpenPuff.exe``` | Windows | Yes |
-| [WavePad](https://www.nch.com.au/wavepad/fr/index.html) | AUDIO | WavePad is an audio editing software | ```WavePadMontageAudio_FR.exe``` | Windows | Yes |
+| [ElectronicColoringBook](https://github.com/doegox/ElectronicColoringBook) | File types | The tool allows you to colorize data file according to repetitive chunks, typical in ECB encrypted | ```electroniccoloringbook``` | Linux/Windows | No |
 
-**Note :** Windows tools can be run on Linux with [Wine](https://www.winehq.org/)!
+Gui Tools
+
+| Tool | Description | OS |
+| pdftk | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | Linux/Windows |
+| spectrology | Images to audio files with corresponding spectrograms encoder | Linux/Windows |
+| FFTStegPic | A python script for digital image steganography using Fast Fourier Transform | Linux/Windows |
+| qsstv | QSSTV is an amateur radio tool to receive and transmit Slow Scan Television (SSTV) and Faxes via radio waves | Linux/Windows |
+| sonic-visualiser | Sonic Visualiser is a free application for Visualisation, analysis, and annotation of music audio recordings | Linux/Windows |
+| steg | Steg is a software program that uses steganography and cryptography techniques to hide and find information in compressed and uncompressed images | Linux/Windows |
+| steganabara | Steganabara is a tool to allows colour analysis to an image | Linux/Windows |
+| stegsolve | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | Linux/Windows |
+| OpenPuff | OpenPuff is a tool to hide and unhide data from images | Windows |
+| WavePad | WavePad is an audio editing software | Windows |
 
 **Web**
 
