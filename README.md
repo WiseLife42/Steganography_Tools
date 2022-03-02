@@ -54,16 +54,16 @@ This project was created to bring together most of the tools used in CTF to solv
 
 | Tool | Description | OS |
 |------|-------------|----|
-| pdftk | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | Linux/Windows |
-| spectrology | Images to audio files with corresponding spectrograms encoder | Linux/Windows |
-| FFTStegPic | A python script for digital image steganography using Fast Fourier Transform | Linux/Windows |
-| qsstv | QSSTV is an amateur radio tool to receive and transmit Slow Scan Television (SSTV) and Faxes via radio waves | Linux/Windows |
-| sonic-visualiser | Sonic Visualiser is a free application for Visualisation, analysis, and annotation of music audio recordings | Linux/Windows |
-| steg | Steg is a software program that uses steganography and cryptography techniques to hide and find information in compressed and uncompressed images | Linux/Windows |
-| steganabara | Steganabara is a tool to allows colour analysis to an image | Linux/Windows |
-| stegsolve | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | Linux/Windows |
-| OpenPuff | OpenPuff is a tool to hide and unhide data from images | Windows |
-| WavePad | WavePad is an audio editing software | Windows |
+| [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | Linux/Windows |
+| [spectrology](https://github.com/solusipse/spectrology) | Images to audio files with corresponding spectrograms encoder | Linux/Windows |
+| [FFTStegPic](https://github.com/0xcomposure/FFTStegPic) | A python script for digital image steganography using Fast Fourier Transform | Linux/Windows |
+| [qsstv](https://doc.ubuntu-fr.org/qsstv) | QSSTV is an amateur radio tool to receive and transmit Slow Scan Television (SSTV) and Faxes via radio waves | Linux/Windows |
+| [sonic-visualiser](https://www.sonicvisualiser.org/) | Sonic Visualiser is a free application for Visualisation, analysis, and annotation of music audio recordings | Linux/Windows |
+| [steg](https://www.fabionet.org/) | Steg is a software program that uses steganography and cryptography techniques to hide and find information in compressed and uncompressed images | Linux/Windows |
+| [steganabara](http://www.caesum.com/handbook/stego.htm) | Steganabara is a tool to allows colour analysis to an image | Linux/Windows |
+| [stegsolve](http://wikisecu.fr/doku.php?id=stegano:stegsolve) | StegSolve is a tool that allows the analysis of images in depth, we find in particular different possible views depending on the color layers | Linux/Windows |
+| [OpenPuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html) | OpenPuff is a tool to hide and unhide data from images | Windows |
+| [WavePad](https://www.nch.com.au/wavepad/fr/index.html) | WavePad is an audio editing software | Windows |
 
 **Web App**
 
