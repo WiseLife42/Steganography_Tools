@@ -9,8 +9,10 @@ This project was created to bring together most of the tools used in CTF to solv
 # ./steg_tools.sh
 ```
 
-**Steganography Tools**
- 
+## Tools
+
+**Command line Tools**
+
 | Tool | File types | Description | Command | OS | Graphical Interface |
 |------|------------|-------------|---------|----|---------------------|
 | [exiftool](https://exiftool.org/) | a lot | ExifTool is a command line utility for reading, writing and editing meta information in a wide variety of files | ```exiftool -h``` | Linux/Windows | No |
@@ -48,7 +50,7 @@ This project was created to bring together most of the tools used in CTF to solv
 | [stegseek](https://github.com/RickdeJager/stegseek) | a lot | Stegseek is a lightning fast steghide cracker that can be used to extract hidden data from files | ```stegseek --help``` | Linux/Windows | No |
 | [ElectronicColoringBook](https://github.com/doegox/ElectronicColoringBook) | File types | The tool allows you to colorize data file according to repetitive chunks, typical in ECB encrypted | ```electroniccoloringbook``` | Linux/Windows | No |
 
-Gui Tools
+**Gui Tools**
 
 | Tool | Description | OS |
 | pdftk | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | Linux/Windows |
@@ -62,7 +64,7 @@ Gui Tools
 | OpenPuff | OpenPuff is a tool to hide and unhide data from images | Windows |
 | WavePad | WavePad is an audio editing software | Windows |
 
-**Web**
+**Web App**
 
 | Tool | File types | Description |
 |------|------------|-------------|
