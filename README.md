@@ -53,6 +53,7 @@ This project was created to bring together most of the tools used in CTF to solv
 **Gui Tools**
 
 | Tool | Description | OS |
+|------|-------------|----|
 | pdftk | PDFtk is our friendly graphical tool for quickly merging and splitting PDF documents and pages | Linux/Windows |
 | spectrology | Images to audio files with corresponding spectrograms encoder | Linux/Windows |
 | FFTStegPic | A python script for digital image steganography using Fast Fourier Transform | Linux/Windows |
