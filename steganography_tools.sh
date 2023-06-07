@@ -4,7 +4,7 @@ apt-get install sudo
 echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" >> ~/.bashrc
 source ~/.bashrc 
 sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev libsqlite3-dev libboost-all-dev
-sudo apt-get install -y build-essential libssl-dev libffi-dev python-dev 
+sudo apt-get install -y libffi-dev python-dev 
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y git
 sudo apt-get install -y python3-pip
