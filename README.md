@@ -5,8 +5,8 @@ This project was created to bring together most of the tools used in CTF to solv
 ```
 # git clone https://github.com/WiseLife42/Steganography_Tools
 # cd Steganography_Tools
-# chmod +x steg_tools.sh
-# ./steg_tools.sh
+# chmod +x steganography_tools.sh
+# ./steganography_tools.sh
 ```
 
 ## Tools
